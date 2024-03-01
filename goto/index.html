@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<!--
+    This is a page that does redirects for Gammapy.
+    It means we can share links like this:
+        http://gammapy.org/goto/#something
+    and have them redirect wherever we like,
+    and if needed change that place they redirect to later.
+ -->
+<!-- https://stackoverflow.com/a/5411601/498873 -->
+<!-- https://stackoverflow.com/a/506004/498873 -->
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous">
+        </script>
+        <script src="script.js"></script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <h1>Gammapy redirect page</h1>
+        <p>If you see this page, you have probably typed a non-existing redirect URL.</p>
+        <p>List of available redirect links:</p>
+        <ul id="gotos"></ul>
+    </body>
+</html>
